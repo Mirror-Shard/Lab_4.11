@@ -162,7 +162,7 @@ class MyTableView:
         self.table_model.line_add_change.connect(self.on_line_add_change)
 
     def SetupUI(self):
-        self.parent.setGeometry(300, 200, 650, 650)
+        self.parent.setGeometry(300, 200, 1350, 550)
         self.parent.setWindowTitle("Приложение")
         self.table_view = QTableView()
         self.table_view.setModel(self.table_model)
